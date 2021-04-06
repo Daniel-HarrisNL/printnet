@@ -1,23 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ExploreIcon from './assets/components/ExploreIcon/ExploreIcon'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ExploreIcon text="3D Print" cName="bgPrinter"/>
     </div>
   );
 }
