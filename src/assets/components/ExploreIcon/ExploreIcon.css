@@ -12,19 +12,35 @@
         order: 0;
         flex-grow: 0;
         margin: 0px 16px;
-}
 
-.bgPrinter {
-        width: 183px;
-        height: 178px;
-        left: 0px;
-        top: 0px;
-
-        background: url(../../images/printer.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         border: 1px solid rgba(0, 0, 0, 0.15);
         box-sizing: border-box;
         border-radius: 8px;
+}
+
+.printer {
+        background-image: url(../../images/printer.png);
+}
+
+.cad {
+        background-image: url(../../images/cad.jpeg);
+}
+
+.curagr {
+        background-image: url(../../images/curagr.jpg);
+}
+
+.otherservice {
+        background-image: url(../../images/otherservice.jpeg);
+}
+
+.repair {
+        background-image: url(../../images/repair.jpeg);
+}
+
+.sketch {
+        background-image: url(../../images/sketch.jpg);
 }
