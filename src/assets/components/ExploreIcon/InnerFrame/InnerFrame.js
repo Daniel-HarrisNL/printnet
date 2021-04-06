@@ -3,7 +3,7 @@ import './InnerFrame.css';
 
 function InnerFrame(props) {
         return (
-                <div className="innerFrame"><p className="innerFrameText">{props.text}</p></div>
+                <div className="innerFrame"><p>{props.text}</p></div>
         );
 }
 
