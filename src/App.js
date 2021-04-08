@@ -6,6 +6,7 @@ import ExploreContainer from './assets/containers/ExploreContainer/ExploreContai
 function App() {
   return (
     <div className="App">
+      
       <ExploreContainer/>
     </div>
   );
