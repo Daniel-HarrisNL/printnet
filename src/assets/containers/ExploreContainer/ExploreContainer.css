@@ -15,6 +15,5 @@
 
         /* Inside Auto Layout */
         flex: none;
-        order: 2;
         flex-grow: 0;      
 }
