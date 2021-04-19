@@ -1,6 +1,5 @@
 import React from 'react'
 import './Explore.css';
-import ExploreContainer from './assets/containers/ExploreContainer/ExploreContainer'
 import OptionBar from './assets/components/OptionBar/OptionBar'
 import HeadNav from './assets/containers/HeadNav/HeadNav'
 
@@ -8,7 +7,7 @@ import HeadNav from './assets/containers/HeadNav/HeadNav'
 
 function Explore() {
     return (<div className="Explore">
-		<HeadNav/>
+		<HeadNav extended={true}/>
 		<OptionBar/>
 	</div>);
 }

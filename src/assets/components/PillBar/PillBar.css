@@ -1,0 +1,10 @@
+.Pill-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 414px;
+
+    margin-bottom: 8px;
+}

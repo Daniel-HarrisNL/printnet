@@ -8,7 +8,7 @@ import HeadNav from './assets/containers/HeadNav/HeadNav'
 
 function Home() {
     return (<div className="Home">
-		<HeadNav/>
+		<HeadNav extended={false}/>
 		<h1 className="explore-text">Find services near you</h1>
 		<ExploreContainer/>
 		<OptionBar/>
