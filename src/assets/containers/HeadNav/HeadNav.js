@@ -3,6 +3,7 @@ import './HeadNav.css'
 import SearchContainer from '../SearchContainer/SearchContainer'
 import { faBell, faSlidersH, faArrowLeft, faBars } from '@fortawesome/free-solid-svg-icons'
 import PillBar from '../../components/PillBar/PillBar'
+import SaveSearch from '../../components/SaveSearch/SaveSearch'
 
 function HeadNav(props) {
     if (props.extended === false){
@@ -18,6 +19,7 @@ function HeadNav(props) {
                 <div className="place-holder-bar"/>
                 <SearchContainer innerIcon={faArrowLeft} outerIcon={faSlidersH}/>
                 <PillBar/>
+                <SaveSearch/>
             </div>
         );
     }
