@@ -2,13 +2,14 @@ import React from 'react'
 import './Home.css';
 import ExploreContainer from './assets/containers/ExploreContainer/ExploreContainer'
 import OptionBar from './assets/components/OptionBar/OptionBar'
-import SearchContainer from './assets/containers/SearchContainer/SearchContainer'
-import { faBell, faFilter, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import HeadNav from './assets/containers/HeadNav/HeadNav'
+
+
 
 function Home() {
     return (<div className="Home">
-		<SearchContainer icon={faBell}/>
-		<h1 className="explore">Find services near you</h1>
+		<HeadNav/>
+		<h1 className="explore-text">Find services near you</h1>
 		<ExploreContainer/>
 		<OptionBar/>
 	</div>);

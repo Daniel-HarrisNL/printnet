@@ -4,7 +4,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0px 16px;
+	
 
 	width: 414px;
 	height: 64px;
@@ -26,4 +26,5 @@
 	flex: none;
 	flex-grow: 0;
 	color: rgba(0, 0, 0, 0.3);
+	margin: 0 16px;
 }
