@@ -1,0 +1,19 @@
+.Home {
+    text-align: center;
+        /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    position: relative;
+    width: 414px;
+    height: 898px;
+    overflow-x: hidden;
+
+    background: #F1F2F3;
+    
+}

@@ -1,0 +1,9 @@
+.search-bar {
+	width: 334px;
+	height: 60px;
+	
+	/* Inside Auto Layout */
+	flex: none;
+	flex-grow: 0;
+	margin: 0px 10px;
+}

@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
-import ExploreContainer from './assets/containers/ExploreContainer/ExploreContainer'
-import OptionBar from './assets/components/OptionBar/OptionBar'
-
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Home from './Home.js';
+import Explore from './Explore.js';
+import NewPost from './NewPost.js';
 
 function App() {
-  return (
-    <div className="App">
-      <h1 className="explore">Find services near you</h1>
-      <ExploreContainer/>
-      <OptionBar/>
-    </div>
-  );
+	return (<Router>
+		<Switch>
+			<Route path="/" exact component={Home}></Route>
+			<Route path="/explore" component={Explore}></Route>
+			<Route path="/post" exact component={NewPost}></Route>
+		</Switch>
+	</Router>);
 }
 
 export default App;

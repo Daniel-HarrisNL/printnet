@@ -5,34 +5,34 @@ import { faSearch, faUser, faStar, faComment, faEnvelope } from '@fortawesome/fr
 
 
 function OptionIcon(props) {
-        let faName;
-        switch(props.iconID) {
-                case "Explore":
-                        faName=faSearch;
-                        break;
-                case "Profile":
-                        faName=faUser;
-                        break;
-                case "Post":
-                        faName=faEnvelope;
-                        break;
-                case "Favourites":
-                        faName=faStar;
-                        break;
-                case "Messages":
-                        faName=faComment;
-                        break;
-                default:
-                        faName=faSearch;   
-              } 
-        
+	let faName;
+	switch(props.iconID) {
+		case "Explore":
+			faName=faSearch;
+			break;
+		case "Profile":
+			faName=faUser;
+			break;
+		case "Post":
+			faName=faEnvelope;
+			break;
+		case "Favourites":
+			faName=faStar;
+			break;
+		case "Messages":
+			faName=faComment;
+			break;
+		default:
+			faName=faSearch;   
+	      } 
+	
 
-        return (
-                <div className="option-button">
-                        <FontAwesomeIcon className="option-icon" icon={faName} size='lg'/>
-                        <p className="option-text">{props.iconID}</p>
-                </div>
-        )
+	return (
+		<div className="option-button">
+			<FontAwesomeIcon className="option-icon" icon={faName} size='lg'/>
+			<p className="option-text">{props.iconID}</p>
+		</div>
+	)
 }
 
 export default OptionIcon
