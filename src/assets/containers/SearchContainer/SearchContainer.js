@@ -6,7 +6,7 @@ import SearchBar from '../../components/SearchBar/SearchBar'
 function SearchContainer(props) {
 	return (
 		<div className="search-container">
-			<SearchBar innerIcon={props.innerIcon}/>
+			<SearchBar innerIcon={props.innerIcon} iconName={props.iconName}/>
 			<FontAwesomeIcon className="fa-icon" icon={props.outerIcon} size='lg'/>    
 		</div>
 	)

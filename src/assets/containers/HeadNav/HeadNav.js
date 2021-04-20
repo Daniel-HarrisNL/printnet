@@ -10,14 +10,14 @@ function HeadNav(props) {
         return (
             <div className="head-nav">
                 <div className="place-holder-bar"/>
-                <SearchContainer innerIcon={faBars} outerIcon={faBell}/>
+                <SearchContainer innerIcon={faBars} outerIcon={faBell} iconName="bars"/>
             </div>
         );
     }else{
         return (
             <div className="head-nav">
                 <div className="place-holder-bar"/>
-                <SearchContainer innerIcon={faArrowLeft} outerIcon={faSlidersH}/>
+                <SearchContainer innerIcon={faArrowLeft} outerIcon={faSlidersH} iconName="arrowLeft"/>
                 <PillBar/>
                 <SaveSearch/>
             </div>

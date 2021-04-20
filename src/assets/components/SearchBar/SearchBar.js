@@ -1,13 +1,24 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 import './SearchBar.css' 
+import { useHistory } from "react-router-dom";
+
+
 
 function SearchBar(props) {
-	return (
-		
+	let history = useHistory();
+
+	const iconClickHandler = ()=>{
+		if (props.iconName === "arrowLeft") {
+			history.push("/");
+		}else {
+			// Do drawer stuff
+		}
+	}
+	
+	return (	
 		<div className="search-bar">
-		<label htmlFor="search-input" className="search-icon">
+		<label className="search-icon" onClick={iconClickHandler}>
 			<FontAwesomeIcon icon={props.innerIcon} size='lg'/>
 		</label>
 		<input type="text" className="search-input" id="search-input" placeholder="Search PrintNet"/>
@@ -15,4 +26,4 @@ function SearchBar(props) {
 	);
 }
 
-export default SearchBar
+export default SearchBar;

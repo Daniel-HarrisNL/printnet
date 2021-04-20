@@ -11,7 +11,9 @@ function SaveSearch() {
                 <FontAwesomeIcon className="search-icon" icon={faBookmark} size='lg'/>
                 <p>Save this search and get notified</p>
             </div>
-            <SwitchMUI></SwitchMUI>
+            <SwitchMUI
+                color="primary"
+            />
         </div>
     );
 }

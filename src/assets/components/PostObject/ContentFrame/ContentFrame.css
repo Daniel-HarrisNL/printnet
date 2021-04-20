@@ -1,0 +1,16 @@
+.content-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    width: 198px;
+    height: 162px;
+
+    background: #FFFFFF;
+
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+}
