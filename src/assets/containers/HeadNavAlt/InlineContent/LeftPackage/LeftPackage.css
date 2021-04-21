@@ -1,0 +1,27 @@
+.left-package {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    height: 32px;
+
+    background: #0E85A4;
+
+    /* Inside Auto Layout */
+    flex: none;
+    flex-grow: 0;
+}
+
+.left-package-icon {
+    margin-right: 32px;
+}

@@ -1,0 +1,7 @@
+.dashed-placeholder {
+    width: 95.5px;
+    height: 95.5px;
+    
+    border: 2px dashed rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;  
+}

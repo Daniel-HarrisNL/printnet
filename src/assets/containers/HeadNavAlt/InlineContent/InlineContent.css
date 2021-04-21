@@ -1,0 +1,21 @@
+.inline-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 414px;
+
+    background: #0E85A4;
+
+    /* Inside Auto Layout */
+    flex: none;
+
+    flex-grow: 0;
+
+}
+
+.inline-icon {
+    padding: 16px;
+    color: white;
+    
+}

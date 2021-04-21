@@ -8,9 +8,6 @@ import { useHistory } from "react-router-dom";
 	
 
 
-		
-
-
 function OptionIcon(props) {
 	let faName;
 	let history = useHistory();

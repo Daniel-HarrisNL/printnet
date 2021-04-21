@@ -1,0 +1,32 @@
+.New-post {
+    text-align: center;
+        /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    position: relative;
+    width: 414px;
+    height: 866px;
+    overflow-x: hidden;
+
+    background: #F1F2F3;
+    
+}
+
+.explore-text {
+	width: 382px;
+	height: 42px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+
+	color: rgba(0, 0, 0, 0.5);
+}
