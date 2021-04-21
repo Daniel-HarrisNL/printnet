@@ -19,5 +19,6 @@
     /* Inside Auto Layout */
     flex: none;
     flex-grow: 0;
+    margin-right: 8px;
    
 }

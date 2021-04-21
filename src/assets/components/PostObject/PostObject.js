@@ -3,11 +3,11 @@ import PhotoFrame from './PhotoFrame/PhotoFrame'
 import ContentFrame from './ContentFrame/ContentFrame'
 import "./PostObject.css"
 
-function PostObject() {
+function PostObject(props) {
     return (
         <div className="post-object">
             <PhotoFrame/>
-            <ContentFrame/>
+            <ContentFrame headline={props.headline} price={props.price} time={props.time} location={props.location}/>
         </div>
     )
 }
